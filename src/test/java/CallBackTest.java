@@ -28,7 +28,7 @@ public class CallBackTest {
 
     @Test
     void happyPathTest() {
-        driver.get("http://localhost:7777/");
+        driver.get("http://localhost:9999/");
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Морозов Александр");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79321299187");
         driver.findElement(By.cssSelector("[data-test-id='agreement'] span")).click();
